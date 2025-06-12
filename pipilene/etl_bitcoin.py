@@ -12,7 +12,6 @@ def extract_bitcoin_value(url):
 
     response = requests.get(url=url).json()
 
-    # response = response.json()
     return response
 
 def transform_bitcoin_values(btc_json):
@@ -74,7 +73,4 @@ if __name__ == "__main__":
         db_name=os.getenv("my_database"),
     )
 
-    # load_bitcoin_extraction(dados_btc=btc_transform, conexao=conn)
-    while True:
-        sleep(30)
-        load_bitcoin_extraction(dados_btc=btc_transform, conexao=conn)
+    load_bitcoin_extraction(dados_btc=btc_transform, conexao=conn)
