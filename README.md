@@ -2,6 +2,7 @@
 
 Este projeto extrai cotações em tempo real do Bitcoin utilizando a API do CoinTraderMonitor, armazena os dados em um banco de dados PostgreSQL e os apresenta em um painel interativo construído com Streamlit. A aplicação coleta informações como o preço mais recente do Bitcoin e a data/hora da cotação, permitindo o monitoramento contínuo e a visualização de tendências de mercado de forma acessível. É ideal para entusiastas de criptomoedas, analistas financeiros ou desenvolvedores que desejam acompanhar o desempenho do Bitcoin de maneira automatizada e visual.
 
+![Fluxo dos dados](fluxo.png)
 
 ## 🛠️ Construído com
 
