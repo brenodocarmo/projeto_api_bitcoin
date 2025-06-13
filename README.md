@@ -14,7 +14,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 * requests - Biblioteca para chamadas HTTP à API
 * Pandas - Manipulação e análise de dados
 
-## ✒️ Autores
+## ✒️ Autor
 
 
 * **Desenvolvedor** - [Breno do Carmo](https://www.linkedin.com/in/breno-do-carmo/)
